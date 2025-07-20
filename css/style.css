@@ -612,6 +612,7 @@ section.fund-compare .table tr:last-child td {
 	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--banner-bg);
 	color: #fff;
 	background-attachment: fixed;
+	background-color: #000;
 }
 
 .contact-banner .banner-content {
@@ -734,6 +735,7 @@ section.register-user {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-size: 100%;
+	background-color: #000;
 }
 
 section.register-user p {
