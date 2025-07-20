@@ -91,7 +91,7 @@
                                 <label for="message">Message</label>
                             </div>
                             <div class="form-group mb-3">
-                                <div class="g-recaptcha" data-sitekey="6LfMHS8gAAAAAL0xAaVP8BXsR8IoFci996bBfUrF"></div>
+                                <div class="g-recaptcha" data-sitekey="6LfMO4krAAAAAAkE6SxTVWJSjxsxToglMCika2mc"></div>
                                 <div class="text-danger captcha-error">
 
                                 </div>
