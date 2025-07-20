@@ -33,7 +33,7 @@
                                 <label for="email">Email</label>
                             </div>
                             <div class="form-group form-floating">
-                                <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" />
+                                <input type="tel" class="form-control" placeholder="Phone" id="phone" name="phone" />
                                 <label for="phone">Phone</label>
                             </div>
                             <div class="form-group mb-2">
