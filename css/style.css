@@ -386,7 +386,7 @@ section.content-section .wf-row {
 }
 
 .invest-conten div.inner-body {
-	background: url('../images/backgrounds/general-bg.png') center center / cover no-repeat, var(--primary-red);
+	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--primary-red);
 	border-radius: 20px;
 	padding: 50px 50px;
 	width: 100%;
@@ -467,7 +467,7 @@ section.content-section .wf-row {
 }
 
 section.faqs {
-	background: url('../images/backgrounds/general-bg.png') center center / cover no-repeat, var(--secondary);
+	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--secondary);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -609,7 +609,7 @@ section.fund-compare .table tr:last-child td {
 .contact-banner {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: url('../images/backgrounds/general-bg.png') center center / cover no-repeat, var(--banner-bg);
+	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--banner-bg);
 	color: #fff;
 	background-attachment: fixed;
 	background-color: #000;
@@ -686,7 +686,7 @@ section.fund-compare .table tr:last-child td {
 .about-banner {
 	padding: 100px 0px;
 	color: #fff;
-	background-image: url('../images/backgrounds/general-bg.png');
+	background-image: url('../images/backgrounds/general-bg.webp');
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -769,7 +769,7 @@ section.register-user .register-form .form-group p a {
 }
 
 .footer {
-	background-image: url('../images/backgrounds/general-bg.png');
+	background-image: url('../images/backgrounds/general-bg.webp');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
