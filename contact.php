@@ -73,7 +73,7 @@
                                 <label for="name">Name</label>
                             </div>
                             <div class="form-group form-floating">
-                                <input type="text" class="form-control" placeholder="Email" id="email" name="email" />
+                                <input type="email" class="form-control" placeholder="Email" id="email" name="email" />
                                 <label for="email">Email</label>
                             </div>
                             <div class="form-group form-floating">
