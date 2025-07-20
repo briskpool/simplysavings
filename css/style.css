@@ -161,7 +161,7 @@ section {
 }
 
 .banner-top {
-	background: url('../images/backgrounds/herobg.webp') center center / cover no-repeat, #FAF3E7;
+	background: url('../images/backgrounds/herobg.webp') center center / cover no-repeat, #000;
 	color: #ffffff;
 }
 
