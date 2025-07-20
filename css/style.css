@@ -697,7 +697,7 @@ section.fund-compare .table tr:last-child td {
 .contact-us-form {
 	padding: 50px 0px;
 	background-image: url('../images/backgrounds/contact-form-bg.webp');
-	background-position: -690px 0px;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
