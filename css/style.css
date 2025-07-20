@@ -29,6 +29,54 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+/* Preloader container */
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 20% 20%, #e0f7fa, transparent 25%),
+                  radial-gradient(circle at 80% 30%, #f1f8e9, transparent 25%),
+                  radial-gradient(circle at 50% 80%, #e3f2fd, transparent 25%),
+                  linear-gradient(-45deg, #fce4ec, #e0f7fa, #f1f8e9, #e3f2fd);
+      background-size: 200% 200%;
+      animation: gradientBG 15s ease infinite;
+      z-index: 9999;
+      transition: opacity 0.8s ease, background-color 0.8s ease;
+    }
+
+    #preloader.fade-out {
+      background-color: #27ae60; /* green fade */
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 40vw;
+      max-width: 300px;
+      animation: breathe 0.7s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.9; }
+    }
+/* End of Preloader container */
+
+
+
 h1,h2,h3,h4,h5,h6 {
 	color: var(--secondary);
 }
@@ -467,13 +515,14 @@ section.content-section .wf-row {
 }
 
 section.faqs {
-	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--secondary);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 	padding-top: 70px;
 	padding-bottom: 60px;
 	width: 100%;
+	background-image: url('../images/backgrounds/general-bg.webp');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 section.faqs h2 {
@@ -611,7 +660,7 @@ section.fund-compare .table tr:last-child td {
 	padding-bottom: 60px;
 	background: url('../images/backgrounds/general-bg.webp') center center / cover no-repeat, var(--banner-bg);
 	color: #fff;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-color: #000;
 }
 
@@ -648,10 +697,9 @@ section.fund-compare .table tr:last-child td {
 .contact-us-form {
 	padding: 50px 0px;
 	background-image: url('../images/backgrounds/contact-form-bg.webp');
+	background-position: -690px 0px;
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 .contact-us-form h2 {
@@ -773,7 +821,7 @@ section.register-user .register-form .form-group p a {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .footer .footer-top {
@@ -968,7 +1016,7 @@ section.register-user .register-form .form-group p a {
 		z-index: 9;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		flex-wrap: wrap;
 		flex-direction: column;
 	}

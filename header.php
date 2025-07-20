@@ -54,3 +54,6 @@
 </head>
 
 <body>
+    <div id="preloader">
+  <img src="images/logos/logo.svg" alt="Logo" class="logo" />
+</div>

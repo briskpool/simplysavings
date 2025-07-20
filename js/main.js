@@ -1,3 +1,16 @@
+// loader code
+window.addEventListener("DOMContentLoaded", () => {
+  const preloader = document.getElementById("preloader");
+  if (preloader) {
+    setTimeout(() => {
+      preloader.classList.add("fade-out");
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 800);
+    }, 500);
+  }
+});
+//loader code end
 
 $(document).ready(function() {
   $('.icon-three').click(function() {
