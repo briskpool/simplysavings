@@ -21,7 +21,7 @@
                     <div class="banner-content">
                         <h1>Savings Made Simple, Results Made Real</h1>
                         <p>
-                            Looking to move your ISA or expand your portfolio? <br>
+                            Looking to move your ISA or expand your portfolio?
                             <span style="font-style:italic; color:#7be2b5;">Simply Savings</span> makes investing and
                             account management easy with expert support and online tools.
                         </p>

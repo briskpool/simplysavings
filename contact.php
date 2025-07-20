@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 mt-lg-5">
-                    <div class="col-md-4 mb-3 mb-lg-0">
+                    <div class="col-md-4 mb-5 mb-lg-0">
                         <div class="d-flex align-items-center">
                             <div class="img me-3">
                                 <img src="images/icons/calling.svg" alt="calling" />
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-lg-0">
+                    <div class="col-md-4 mb-5 mb-lg-0">
                         <div class="d-flex align-items-center">
                             <div class="img me-3">
                                 <img src="images/icons/email.svg" alt="calling" />
