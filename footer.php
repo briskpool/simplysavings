@@ -54,7 +54,7 @@ section.footer li {
                             </a>
                         </li> -->
                         <li class="nav-item">
-                            <a href="https://www.facebook.com/profile.php?id=61575792995939&mibextid=wwXIfr&rdid=8uBKJpb7780aIMXf&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Ctf1Nob8y%2F%3Fmibextid%3DwwXIfr#"
+                            <a href="https://www.facebook.com/people/Simply-Savings/61578239364298/?mibextid=wwXIfr&rdid=Nz5pfnm29ppdymbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1E4vgG5MoM%2F%3Fmibextid%3DwwXIfr"
                                 target="_blank">
                                 <i class="bi bi-facebook"></i>
                             </a>
@@ -191,8 +191,10 @@ section.footer li {
                 <div class="col-md-4 text-center mb-3 mb-md-0 d-lg-block">
                     <!-- TrustBox widget - Review Collector -->
                     <div class="trustpilot-widget" data-locale="en-GB" data-template-id="56278e9abfbbba0bdcd568bc"
-                        data-businessunit-id="6827762643a58c4ab5235432" data-style-height="52px" data-style-width="100%"
-                        data-theme="dark">
+                        data-businessunit-id="68696024ca40503a05871dac" data-style-height="52px"
+                        data-style-width="100%">
+                        <a href="https://uk.trustpilot.com/review/simplysavings.com" target="_blank"
+                            rel="noopener">Trustpilot</a>
                     </div>
                     <!-- End TrustBox widget -->
                 </div>
