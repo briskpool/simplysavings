@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="banner-content">
-                        <h1>Savings Made Simple, Results Made Real</h1>
+                        <h1>Savings, Nothing More, Nothing Less</h1>
                         <p>
                             Looking to move your ISA or expand your portfolio?
                             <span style="font-style:italic; color:#7be2b5;">Simply Savings</span> makes investing and
@@ -69,7 +69,7 @@
                                     <div class="box-details">
                                         <h3>Simple Savings</h3>
                                         <p>If your savings are not meeting your needs, we offer a guaranteed 2% return
-                                            per month.</p>
+                                            per annum.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -82,7 +82,7 @@
                                 <li class="nav-item">
                                     <div class="box-details">
                                         <h3>Simple Growth</h3>
-                                        <p>This will offer you between 2%-4% per month depending on your level of
+                                        <p>This will offer you between 2%-4% per annum depending on your level of
                                             investment.</p>
                                     </div>
                                 </li>
@@ -112,7 +112,7 @@
             <div class="row invest-conten justify-content-center">
                 <div class="col-12 col-xxl-11 position-relative">
                     <div class="inner-body">
-                        <h2>Easy Access, Zero Hassle</h2>
+                        <h2>Simple Savings,<br> Zero Hassle</h2>
                         <p class="d-lg-none">
                             <img class="w-100" src="images/content-img/Maskgroup.jpeg" alt="img" />
                         </p>
@@ -140,9 +140,8 @@
                     <h2>Saving Made Easy</h2>
                     <p>
                         Investing can seem complicated and overwhelming, but at Simply Savings, we believe
-                        it
-                        should be easy and straightforward. That's why we've created a three step process for our
-                        Easy Access Fund to make it simple for you to get saving.
+                        it should be easy and straightforward. That's why we've created a three step process for our
+                        Simple Savings Fund to make it simple for you to get saving.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -364,7 +363,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>Monthly Interest <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
+                                <td>Annual Interest <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
                                         data-bs-custom-class="custom-tooltip"
                                         data-bs-title="Depending on your risk appetite and your investment level or interest can range from a guaranteed 2% to a possible 6% and potentially higher"></i>
                                 </td>
