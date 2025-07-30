@@ -340,7 +340,7 @@
                             </tr>
                             <tr>
                                 <td>Annual Interest <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
-                                        data-bs-title="Depending on your risk appetite and your investment level or interest can range from a guaranteed 2% to a possible 6% and potentially higher"></i>
+                                        data-bs-title="Depending on your risk appetite and your investment level or interest can range from a guaranteed 2% to a possible 7.2% and potentially higher"></i>
                                 </td>
                                 <td>2% Guaranteed</td>
                                 <td>3-5%</td>
