@@ -436,7 +436,7 @@
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
                                     <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Annual Interest:</strong>3%-5%</li>
+                                    <strong>Annual Interest:</strong> 3%-5%</li>
                                 <li class="list-group-item bg-transparent border-0">
                                     <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
                                     <strong>Minimum Investment:</strong>
