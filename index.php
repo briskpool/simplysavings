@@ -343,7 +343,7 @@
                                         data-bs-title="Depending on your risk appetite and your investment level or interest can range from a guaranteed 2% to a possible 7.2% and potentially higher"></i>
                                 </td>
                                 <td>2% Guaranteed</td>
-                                <td>3-5%</td>
+                                <td>3%-5%</td>
                                 <td>7.2%</td>
                             </tr>
                             <tr>
@@ -436,7 +436,7 @@
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
                                     <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Annual Interest:</strong> 3-5%</li>
+                                    <strong>Annual Interest:</strong>3%-5%</li>
                                 <li class="list-group-item bg-transparent border-0">
                                     <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
                                     <strong>Minimum Investment:</strong>
