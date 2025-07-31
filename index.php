@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="banner-content">
-                        <h1>Savings, Nothing More, Nothing Less</h1>
+                        <h1>Savings.<br>Nothing More.<br>Nothing less.</h1>
                         <p>
                             Looking to move your ISA or expand your portfolio?
                             <span style="font-style:italic; color:#7be2b5;">Simply Savings</span> makes investing and
@@ -293,201 +293,136 @@
                 </div>
             </div>
 
-            <!-- Desktop Table View -->
-            <div class="row mt-4 mt-lg-5 d-none d-md-block">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col" style="color: #0968ba;">Simple Savings</th>
-                                <th scope="col" style="color: #167a4e;">Simple Growth</th>
-                                <th scope="col" style="color: #8943a9;">Simple Income</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Hands Off <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
+            <div class="row row-cols-1 row-cols-lg-3 g-4 mt-4 mt-lg-5">
+                <!-- Simple Savings -->
+                <div class="col d-flex">
+                    <div class="card border-0 rounded-4 w-100 h-100" style="background: #e8f8ff;">
+                        <div class="card-body rounded-4 d-flex flex-column h-100" style="border: 1px solid #cee3ed;">
+                            <h5 class="card-title h4"
+                                style="border-bottom: 1px solid #cee3ed; padding-bottom: 12px; color:#0968ba">Simple
+                                Savings</h5>
+                            <ul class="list-group list-group-flush small mt-3">
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Hands Off</strong>
+                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="No need for you to do anything, just watch your savings grow"></i>
-                                </td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                            </tr>
-                            <tr>
-                                <td>24/7 Support <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
-                                        data-bs-title="We will be there via phone, email or social media when ever you want to talk"></i>
-                                </td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                            </tr>
-                            <tr>
-                                <td>Flexible Term <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
+                                </li>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>24/7 Support</strong>
+                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
+                                        data-bs-title="We will be there via phone, email or social media whenever you want to talk"></i>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Flexible Term</strong>
+                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="No fees for early withdrawal and no fees for topping up"></i>
-                                </td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Regulated Brokerage <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
+                                </li>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Regulated Brokerage</strong>
+                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="Ensure your money is not at risk from fraud or mistreatment"></i>
-                                </td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                                <td><img src="images/icons/check.svg" alt="tick" /></td>
-                            </tr>
-                            <tr>
-                                <td>Annual Interest <i class="bi bi-info-circle-fill" data-bs-toggle="tooltip"
-                                        data-bs-title="Depending on your risk appetite and your investment level or interest can range from a guaranteed 2% to a possible 7.2% and potentially higher"></i>
-                                </td>
-                                <td>2% Guaranteed</td>
-                                <td>3%-5%</td>
-                                <td>7.2%</td>
-                            </tr>
-                            <tr>
-                                <td>Minimum Investment</td>
-                                <td>£250.00</td>
-                                <td>£5,000.00</td>
-                                <td>£50,000.00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Annual Interest:</strong> 2% Guaranteed
+                                </li>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Minimum Investment:</strong> £250.00
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Mobile Stacked Cards View (Visible on Mobile Only) -->
-            <div class="row mt-4 mt-lg-5 d-block d-md-none">
-                <div class="col-12">
 
-                    <!-- Simple Savings -->
-                    <div class="card mb-4 border-0"
-                        style="background: #e8f8ff;">
-                        <div class="card-body rounded-3" style="border: 1px solid #cee3ed;">
-                            <h5 class="card-title h4" style="border-bottom: 1px solid #cee3ed;
-    padding-bottom: 12px; color:#0968ba">Simple Savings</h5>
-                            <ul class="list-group list-group-flush small">
+                <!-- Simple Growth -->
+                <div class="col d-flex">
+                    <div class="card border-0 rounded-4 w-100 h-100" style="background: #e6f9f0;">
+                        <div class="card-body rounded-4 d-flex flex-column h-100" style="border: 1px solid #b1dfc6;">
+                            <h5 class="card-title h4"
+                                style="border-bottom: 1px solid #b1dfc6; padding-bottom: 12px; color: #167a4e;">Simple
+                                Growth</h5>
+                            <ul class="list-group list-group-flush small mt-3">
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Hands Off</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="No need for you to do anything, just watch your savings grow"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>24/7 Support</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="We will be there via phone, email or social media whenever you want to talk"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Flexible Term</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="No fees for early withdrawal and no fees for topping up"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Regulated Brokerage</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="Ensure your money is not at risk from fraud or mistreatment"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Annual Interest:</strong> 2%
-                                    Guaranteed</li>
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Annual Interest:</strong> 3%-5%
+                                </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Minimum Investment:</strong>
-                                    £250.00</li>
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Minimum Investment:</strong> £5,000.00
+                                </li>
                             </ul>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Simple Growth -->
-                    <div class="card mb-4 border-0"
-                        style="background: #e6f9f0;">
-                        <div class="card-body rounded-3" style="border: 1px solid #b1dfc6;">
-                            <h5 class="card-title h4" style="border-bottom: 1px solid #b1dfc6;
-    padding-bottom: 12px; color: #167a4e;">Simple Growth</h5>
-                            <ul class="list-group list-group-flush small">
+                <!-- Simple Income -->
+                <div class="col d-flex">
+                    <div class="card border-0 rounded-4 w-100 h-100" style="background: #faefff;">
+                        <div class="card-body rounded-4 d-flex flex-column h-100" style="border: 1px solid #e9d6f1;">
+                            <h5 class="card-title h4"
+                                style="border-bottom: 1px solid #e9d6f1; padding-bottom: 12px; color: #8943a9;">Simple
+                                Income</h5>
+                            <ul class="list-group list-group-flush small mt-3">
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Hands Off</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="No need for you to do anything, just watch your savings grow"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>24/7 Support</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="We will be there via phone, email or social media whenever you want to talk"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Flexible Term</strong>
-                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
-                                        data-bs-title="No fees for early withdrawal and no fees for topping up"></i>
-                                </li>
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Regulated Brokerage</strong>
                                     <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
                                         data-bs-title="Ensure your money is not at risk from fraud or mistreatment"></i>
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Annual Interest:</strong> 3%-5%</li>
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Minimum Investment:</strong>
-                                    £5,000.00</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Simple Income -->
-                    <div class="card mb-4 border-0"
-                        style="background: #faefff;">
-                        <div class="card-body rounded-3" style="border: 1px solid #e9d6f1;">
-                            <h5 class="card-title h4" style="border-bottom: 1px solid #e9d6f1;
-    padding-bottom: 12px; color: #8943a9;">Simple Income</h5>
-                            <ul class="list-group list-group-flush small">
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Hands Off</strong>
-                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
-                                        data-bs-title="No need for you to do anything, just watch your savings grow"></i>
-                                </li>
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>24/7 Support</strong>
-                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
-                                        data-bs-title="We will be there via phone, email or social media whenever you want to talk"></i>
-                                </li>
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Regulated Brokerage</strong>
-                                    <i class="bi bi-info-circle-fill ms-1" data-bs-toggle="tooltip"
-                                        data-bs-title="Ensure your money is not at risk from fraud or mistreatment"></i>
-                                </li>
-                                <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
                                     <strong>Annual Interest:</strong> 7.2%
                                 </li>
                                 <li class="list-group-item bg-transparent border-0">
-                                    <img src="images/icons/check.svg" width="18" alt="tick" class="me-1" />
-                                    <strong>Minimum Investment:</strong>
-                                    £50,000.00</li>
+                                    <img src="images/icons/check.svg" width="18" class="me-1" />
+                                    <strong>Minimum Investment:</strong> £50,000.00
+                                </li>
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
-
-
 
 
             <!-- Register CTA -->
