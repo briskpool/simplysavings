@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="banner-content">
-                        <h1>Savings.<br>Nothing More.<br>Nothing less.</h1>
+                        <h1>Savings.<br>Nothing More.<br>Nothing Less.</h1>
                         <p>
                             Looking to move your ISA or expand your portfolio?
                             <span style="font-style:italic; color:#7be2b5;">Simply Savings</span> makes investing and
