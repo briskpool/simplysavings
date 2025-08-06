@@ -31,7 +31,7 @@
           <a class="nav-link <?php if($currentPage =='register'){echo 'active';}?>" href="register.php">Register</a>
         </li>
       </ul>
-	  <a href = "#" class = "btn btn-primary-red"> <i class="bi bi-person-fill"></i> Log In </a>
+	  <a href = "https://app.simplysavings.com" class = "btn btn-primary-red"> <i class="bi bi-person-fill"></i> Log In </a>
     </div>
   </div>
 </nav>
