@@ -40,11 +40,6 @@ section.footer li {
                         </li>
                         <li class="nav-item">
                             <a href="#" target="_blank">
-                                <i class="bi bi-twitter-x"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" target="_blank">
                                 <i class="bi bi-linkedin"></i>
                             </a>
                         </li>
@@ -53,6 +48,11 @@ section.footer li {
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li> -->
+                        <li class="nav-item">
+                            <a href="https://x.com/SimplySavingsHQ?t=riAY4xka00N0mEFJOokz9w&s=08" target="_blank">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="https://www.facebook.com/people/Simply-Savings/61578239364298/?mibextid=wwXIfr&rdid=Nz5pfnm29ppdymbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1E4vgG5MoM%2F%3Fmibextid%3DwwXIfr"
                                 target="_blank">
