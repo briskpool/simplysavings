@@ -10,8 +10,14 @@
     $pageTitle = "Simply Savings - Smart Investment Solutions";
     $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
     $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
-    $pageImage = "https://simplesavings.com/images/website-preview.png";
-    $pageUrl = "https://simplesavings.com/";
+
+    // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
+    $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+    $scheme = 'https';
+    $baseUrl = $scheme . '://' . $host . '/';
+
+    $pageImage = $baseUrl . 'images/website-preview.png';
+    $pageUrl = $baseUrl;
     
     // Page-specific meta overrides
     if (isset($currentPage)) {
@@ -52,7 +58,7 @@
         
         // Update URL for specific pages
         if ($currentPage !== 'home') {
-            $pageUrl = "https://simplesavings.com/" . $currentPage . ".php";
+            $pageUrl = $baseUrl . $currentPage . '.php';
         }
     }
     ?>
@@ -76,8 +82,8 @@
         "@context": "https://schema.org",
         "@type": "FinancialService",
         "name": "Simply Savings",
-        "url": "https://simplesavings.com/",
-        "logo": "https://simplesavings.com/images/logos/logo.svg",
+        "url": "<?php echo $baseUrl; ?>",
+        "logo": "<?php echo $baseUrl; ?>images/logos/logo.svg",
         "description": "<?php echo addslashes($pageDescription); ?>",
         "address": {
             "@type": "PostalAddress",
@@ -93,7 +99,7 @@
             "availableLanguage": "English"
         },
         "sameAs": [
-            "https://simplesavings.com/"
+            "<?php echo $baseUrl; ?>"
         ],
         "serviceType": "Investment Management",
         "areaServed": ["GB", "EU"],
@@ -135,6 +141,8 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
     <meta property="og:image" content="<?php echo $pageImage; ?>">
+    <meta property="og:image:secure_url" content="<?php echo $pageImage; ?>">
+    <meta property="og:image:type" content="image/png">
     <meta property="og:url" content="<?php echo $pageUrl; ?>">
     <meta property="og:site_name" content="Simply Savings">
     <meta property="og:locale" content="en_GB">

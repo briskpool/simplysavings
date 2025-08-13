@@ -1,0 +1,18 @@
+# Ensure correct MIME types for images
+AddType image/png .png
+AddType image/jpeg .jpg .jpeg
+AddType image/webp .webp
+AddType image/gif .gif
+AddType image/svg+xml .svg
+
+# Explicitly force correct type for the preview image used by Open Graph
+<Files "images/website-preview.png">
+  ForceType image/png
+</Files>
+
+# Security header to prevent content type sniffing issues
+<IfModule mod_headers.c>
+  <FilesMatch "\.(png|jpe?g|gif|webp|svg)$">
+    Header set X-Content-Type-Options "nosniff"
+  </FilesMatch>
+</IfModule>
