@@ -1,3 +1,24 @@
 User-agent: *
 Allow: /
+
+# Disallow admin and system files
+Disallow: /vendor/
+Disallow: /deploy.php
+Disallow: /test.php
+Disallow: /loader.php
+Disallow: /old_indices.php
+Disallow: /indices.php
+Disallow: /send_email.php
+Disallow: /.DS_Store
+
+# Allow important directories
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /templates/
+
+# Sitemap location
 Sitemap: https://simplesavings.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
