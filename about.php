@@ -18,7 +18,7 @@
 			<div class = "banner-content">
 				<div class = "row">
 					<div class = "col-12">
-						<h1>About "Simply Savings"</span></h1>
+						<h1>About "Simply Saving"</span></h1>
 					</div>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
 				<div class = "col-12 text-center">
 					<h2>Why choose us?</h2>
 					<p>
-						Why would you choose Simply Savings Capital? Well here are 6 of the best reasons.
+						Why would you choose Simply Saving Capital? Well here are 6 of the best reasons.
 					</p>
 				</div>
 			</div>

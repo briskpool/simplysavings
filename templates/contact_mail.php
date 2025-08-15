@@ -28,8 +28,8 @@
                     </tr>
                     <tr>
                         <td style="text-align:center;">
-                            <a href="https://simplysavings.com" title="logo" target="_blank">
-                                <img width="170" src="https://simplysavings.com/templates/email-logo.png" title="logo"
+                            <a href="https://simplysaving.com" title="logo" target="_blank">
+                                <img width="170" src="https://simplysaving.com/templates/email-logo.png" title="logo"
                                     alt="logo">
                             </a>
                         </td>
@@ -80,7 +80,7 @@
                         <td style="text-align:center;">
                             <p
                                 style="font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;">
-                                &copy; <strong>www.simplysavings.com</strong> </p>
+                                &copy; <strong>www.simplysaving.com</strong> </p>
                         </td>
                     </tr>
                     <tr>

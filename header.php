@@ -7,9 +7,9 @@
     
     <?php
     // Default meta values
-    $pageTitle = "Simply Savings - Smart Investment Solutions";
-    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
-    $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
+    $pageTitle = "Simply Saving - Smart Investment Solutions";
+    $pageDescription = "Make Your Savings Work For You. Simply Saving offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
+    $pageKeywords = "Savings, Investment, Simply Saving, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
 
     // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
     $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
@@ -23,36 +23,36 @@
     if (isset($currentPage)) {
         switch ($currentPage) {
             case 'home':
-                $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns up to 4%";
-                $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
-                $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer, Investment Platform";
+                $pageTitle = "Simply Saving - Smart Investment Solutions | Guaranteed Returns up to 4%";
+                $pageDescription = "Make Your Savings Work For You. Simply Saving offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
+                $pageKeywords = "Savings, Investment, Simply Saving, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer, Investment Platform";
                 break;
             case 'about-us':
-                $pageTitle = "About Simply Savings - Trusted Investment Management | Millions Managed";
-                $pageDescription = "Simply Savings has been trusted to handle millions of pounds from UK and global investors. Our experienced trading team helps hundreds achieve their savings goals, outperforming high street banks.";
-                $pageKeywords = "About Simply Savings, Investment Management, Trading Team, UK Investment, Financial Services, Trusted Investment";
+                $pageTitle = "About Simply Saving - Trusted Investment Management | Millions Managed";
+                $pageDescription = "Simply Saving has been trusted to handle millions of pounds from UK and global investors. Our experienced trading team helps hundreds achieve their savings goals, outperforming high street banks.";
+                $pageKeywords = "About Simply Saving, Investment Management, Trading Team, UK Investment, Financial Services, Trusted Investment";
                 break;
             case 'contact-us':
-                $pageTitle = "Contact Simply Savings - Expert Investment Support | UK & Dubai";
-                $pageDescription = "Contact Simply Savings for expert investment support. Call UK: 0203 807 1460 or email info@simplysavings.com. Offices in UK and Dubai, UAE.";
-                $pageKeywords = "Contact Simply Savings, Investment Support, UK Investment, Dubai Office, Financial Advice, Investment Consultation";
+                $pageTitle = "Contact Simply Saving - Expert Investment Support | UK & Dubai";
+                $pageDescription = "Contact Simply Saving for expert investment support. Call UK: 0203 807 1460 or email info@simplysaving.com. Offices in UK and Dubai, UAE.";
+                $pageKeywords = "Contact Simply Saving, Investment Support, UK Investment, Dubai Office, Financial Advice, Investment Consultation";
                 break;
             case 'register':
-                $pageTitle = "Register with Simply Savings - Start Your Investment Journey";
-                $pageDescription = "Register with Simply Savings to start your investment journey. Create an account and begin earning guaranteed returns up to 4% per annum with our Simple Savings, Growth, and Income options.";
-                $pageKeywords = "Register Simply Savings, Investment Account, Start Investing, Guaranteed Returns, Investment Registration";
+                $pageTitle = "Register with Simply Saving - Start Your Investment Journey";
+                $pageDescription = "Register with Simply Saving to start your investment journey. Create an account and begin earning guaranteed returns up to 4% per annum with our Simple Savings, Growth, and Income options.";
+                $pageKeywords = "Register Simply Saving, Investment Account, Start Investing, Guaranteed Returns, Investment Registration";
                 break;
             case 'privacy':
             case 'privacy-policy':
-                $pageTitle = "Privacy Policy - Simply Savings | Data Protection & Security";
-                $pageDescription = "Simply Savings Privacy Policy. Learn how we protect your personal and financial data, ensuring the highest standards of security and confidentiality for all our investors.";
-                $pageKeywords = "Privacy Policy, Data Protection, Simply Savings, Financial Security, GDPR Compliance";
+                $pageTitle = "Privacy Policy - Simply Saving | Data Protection & Security";
+                $pageDescription = "Simply Saving Privacy Policy. Learn how we protect your personal and financial data, ensuring the highest standards of security and confidentiality for all our investors.";
+                $pageKeywords = "Privacy Policy, Data Protection, Simply Saving, Financial Security, GDPR Compliance";
                 break;
             case 'terms':
             case 'Terms-condition':
-                $pageTitle = "Terms & Conditions - Simply Savings | Investment Terms";
-                $pageDescription = "Simply Savings Terms & Conditions. Understand our investment terms, account management policies, and the terms governing your investment relationship with us.";
-                $pageKeywords = "Terms and Conditions, Investment Terms, Simply Savings, Account Terms, Investment Agreement";
+                $pageTitle = "Terms & Conditions - Simply Saving | Investment Terms";
+                $pageDescription = "Simply Saving Terms & Conditions. Understand our investment terms, account management policies, and the terms governing your investment relationship with us.";
+                $pageKeywords = "Terms and Conditions, Investment Terms, Simply Saving, Account Terms, Investment Agreement";
                 break;
         }
         
@@ -66,7 +66,7 @@
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($pageKeywords); ?>">
-    <meta name="author" content="Simply Savings">
+    <meta name="author" content="Simply Saving">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
@@ -81,7 +81,7 @@
     {
         "@context": "https://schema.org",
         "@type": "FinancialService",
-        "name": "Simply Savings",
+        "name": "Simply Saving",
         "url": "<?php echo $baseUrl; ?>",
         "logo": "<?php echo $baseUrl; ?>images/logos/logo.svg",
         "description": "<?php echo addslashes($pageDescription); ?>",
@@ -144,11 +144,11 @@
     <meta property="og:image:secure_url" content="<?php echo $pageImage; ?>">
     <meta property="og:image:type" content="image/png">
     <meta property="og:url" content="<?php echo $pageUrl; ?>">
-    <meta property="og:site_name" content="Simply Savings">
+    <meta property="og:site_name" content="Simply Saving">
     <meta property="og:locale" content="en_GB">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Simply Savings - Smart Investment Solutions">
+    <meta property="og:image:alt" content="Simply Saving - Smart Investment Solutions">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -156,15 +156,15 @@
     <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
     <meta name="twitter:image" content="<?php echo $pageImage; ?>">
     <meta name="twitter:url" content="<?php echo $pageUrl; ?>">
-    <meta name="twitter:site" content="@simplysavings">
-    <meta name="twitter:creator" content="@simplysavings">
+    <meta name="twitter:site" content="@simplysaving">
+    <meta name="twitter:creator" content="@simplysaving">
 
     <!-- Additional Meta Tags -->
     <meta name="theme-color" content="#1a1a1a">
     <meta name="msapplication-TileColor" content="#1a1a1a">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Simply Savings">
+    <meta name="apple-mobile-web-app-title" content="Simply Saving">
     
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

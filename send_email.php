@@ -5,9 +5,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 $mail_host="localhost";
-$from_name="Simply Savings";
-$from_email="info@simplysavings.com";
-$to_email="info@simplysavings.com";
+$from_name="Simply Saving";
+$from_email="info@simplysaving.com";
+$to_email="info@simplysaving.com";
 
 
 if (!empty($_POST['g_recaptcha_response'])) {

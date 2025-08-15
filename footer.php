@@ -131,7 +131,7 @@ section.footer li {
             <div class="row pt-3">
                 <div class="col-12">
                     <p>
-                        Simply Savings is a trading style which is registered in U.A.E.
+                        Simply Saving is a trading style which is registered in U.A.E.
                     </p>
 
                     <p>
@@ -150,7 +150,7 @@ section.footer li {
                     </p>
 
                     <p>
-                        Simply Savings is not authorised and regulated by the FCA and we do not give
+                        Simply Saving is not authorised and regulated by the FCA and we do not give
                         investment
                         advice, you should contact a regulated investment professional if you require investment advice.
                     </p>
@@ -199,7 +199,7 @@ section.footer li {
                     <!-- End TrustBox widget -->
                 </div>
                 <div class="col-lg-4 text-center text-lg-end">
-                    Copyright © Simply Savings 2019.
+                    Copyright © Simply Saving 2019.
                 </div>
             </div>
         </div>
