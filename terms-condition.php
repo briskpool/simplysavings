@@ -33,7 +33,7 @@
                     <h3>1. AGREEMENT TO TERMS</h3>
                     <p>
 
-                        These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Simply Saving, doing business as Simply Saving ("Simply Saving," “we," “us," or “our”), concerning your access to and use of the <a href = "https://simplysaving.com">https://simplysaving.com</a> website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+                        These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Simply Savings, doing business as Simply Savings ("Simply Savings," “we," “us," or “our”), concerning your access to and use of the <a href = "https://simplysavings.com">https://simplysavings.com</a> website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
                     </p>
 
@@ -172,7 +172,7 @@
                     <h3>10. PRIVACY POLICY</h3>
 
                     <p>
-                        We care about data privacy and security. Please review our Privacy Policy: <a href="https://simplysaving.com/privacy.php">https://simplysaving.com/privacy</a> . By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom.
+                        We care about data privacy and security. Please review our Privacy Policy: <a href="https://simplysavings.com/privacy.php">https://simplysavings.com/privacy</a> . By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom.
                     </p>
 
                     <h3>11. TERM AND TERMINATION</h3>
@@ -198,7 +198,7 @@
                     <h3>13. GOVERNING LAW </h3>
 
                     <p>
-                        These Terms shall be governed by and defined following the laws of __________. Simply Saving Ltd and yourself irrevocably consent that the courts of __________ shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
+                        These Terms shall be governed by and defined following the laws of __________. Simply Savings Ltd and yourself irrevocably consent that the courts of __________ shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
                     </p>
 
                     <h3>14. DISPUTE RESOLUTION</h3>

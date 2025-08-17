@@ -40,7 +40,7 @@
                             </div>
                             <div class="detail">
                                 <p><strong>Write to us</strong></p>
-                                <p><a href="mailto:info@simplysaving.com">info@simplysaving.com</a></p>
+                                <p><a href="mailto:info@simplysavings.com">info@simplysavings.com</a></p>
                             </div>
                         </div>
                     </div>

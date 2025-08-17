@@ -22,7 +22,7 @@
                         <h1>Savings.<br>Nothing More.<br>Nothing Less.</h1>
                         <p>
                             Looking to move your ISA or expand your portfolio?
-                            <span style="font-style:italic; color:#7be2b5;">Simply Saving</span> makes investing and
+                            <span style="font-style:italic; color:#7be2b5;">Simply Savings</span> makes investing and
                             account management easy with expert support and online tools.
                         </p>
                         <!-- <a href = "register.php" class = "btn btn-secondary-navy">
@@ -52,7 +52,7 @@
                         Explore the diverse world of investment opportunities with our cutting-edge software. Harnessing
                         the power of the latest technology, our platform tailors your investment strategy to match your
                         desired returns and risk tolerance. Elevate your financial journey by choosing a solution
-                        designed to optimize your investment outcomes at Simply Saving.
+                        designed to optimize your investment outcomes at Simply Savings.
                     </p>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                             <img class="w-100" src="images/content-img/Maskgroup.jpeg" alt="img" />
                         </p>
                         <p>
-                            At Simply Saving we want to make investing easy and profitable for our
+                            At Simply Savings we want to make investing easy and profitable for our
                             clients. We offer a range of investment options so that you can find the right one for you.
                         </p>
                         <a href="register.php" class="btn btn-primary-red">
@@ -139,7 +139,7 @@
                 <div class="col-12 mb-3 mb-lg-5 text-center">
                     <h2>Saving Made Easy</h2>
                     <p>
-                        Investing can seem complicated and overwhelming, but at Simply Saving, we believe
+                        Investing can seem complicated and overwhelming, but at Simply Savings, we believe
                         it should be easy and straightforward. That's why we've created a three step process for our
                         Simple Savings Fund to make it simple for you to get saving.
                     </p>
@@ -190,7 +190,7 @@
                 <div class="col-lg-10 col-xxl-9 text-center">
                     <h2>Frequently Asked Questions</h2>
                     <p>
-                        Find answers to some of the most commonly asked questions about Simply Saving. If
+                        Find answers to some of the most commonly asked questions about Simply Savings. If
                         you can't find what you are looking for, please get in touch with our team. We will be happy to
                         help you.
                     </p>
@@ -248,7 +248,7 @@
                                         withdraw all, or a portion of your capital at any time.<br><br>
                                         The "Simple Growth" and "Simple Income" accounts have a minimum term of 30 days
                                         on
-                                        withdrawal due to the returns on offer at Simply Saving.
+                                        withdrawal due to the returns on offer at Simply Savings.
                                     </div>
                                 </div>
                             </div>
@@ -440,7 +440,7 @@
         <div class="container mt-3 mb-5">
             <div class="row justify-content-center">
                 <div class="col-12 mb-3">
-                    <h2 class="text-center">Simply Saving is Featured In</h2>
+                    <h2 class="text-center">Simply Savings is Featured In</h2>
                 </div>
 
                 <div class="col-12 col-md-12 col-lg-8 text-center mb-4">
