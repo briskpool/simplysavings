@@ -7,7 +7,7 @@
     </div>
     <div class="faq-item">
       <h4>Is there any monthly fee?</h4>
-      <p>No, Simply Savings has no hidden charges or monthly fees.</p>
+      <p>No, Simply Saving has no hidden charges or monthly fees.</p>
     </div>
     <div class="faq-item">
       <h4>Can I manage my account on mobile?</h4>
@@ -19,7 +19,7 @@
     </div>
     <div class="faq-item">
       <h4>How do I contact support?</h4>
-      <p>You can reach us through our help center or by emailing support@simplysavings.com</p>
+      <p>You can reach us through our help center or by emailing support@simplysaving.com</p>
     </div>
   </div>
 </section>
@@ -37,7 +37,7 @@ body {
 }
 
 .faq-section {
-  background: url('https://simplysavings.com/test/images/backgrounds/general-bg.webp') center center / cover no-repeat fixed;
+  background: url('https://simplysaving.com/test/images/backgrounds/general-bg.webp') center center / cover no-repeat fixed;
   min-height: 100vh;
   padding: 60px 20px;
   display: flex;
