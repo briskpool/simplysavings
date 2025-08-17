@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top header" id = "main-navbar">
   <div class="container">
     <a class="navbar-brand" href="index.php">
-		<img width = "150" height = "auto" src = "images/logos/logo.svg" alt = "company-logo"/>
+		<img width = "130" height = "auto" src = "images/logos/logo.svg" alt = "company-logo"/>
 	</a>
 	<div class="icon-three navbar-toggler border-0 px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
 	aria-expanded="false" aria-label="Toggle navigation">
