@@ -8,7 +8,7 @@
     <?php
     // Default meta values
     $pageTitle = "Simply Savings - Smart Investment Solutions";
-    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
+    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
     $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
 
     // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
@@ -23,8 +23,8 @@
     if (isset($currentPage)) {
         switch ($currentPage) {
             case 'home':
-                $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns up to 4%";
-                $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
+                $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns up to 7.2%";
+                $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
                 $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer, Investment Platform";
                 break;
             case 'about-us':
