@@ -8,7 +8,7 @@
     <?php
     // Default meta values
     $pageTitle = "Simply Savings - Smart Investment Solutions";
-    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 4% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
+    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
     $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
 
     // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
