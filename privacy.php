@@ -31,7 +31,7 @@
 				<div class = "col-12">
 
                     <p>
-                        Thank you for choosing to be part of our community at Simply Savings, doing business as Simply Savings("Simply Savings," "we," "us," or "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at <a href="mailto:info@simplysavings.com">info@simplysavings.com</a>.
+                        Thank you for choosing to be part of our community at Simply Savings, doing business as Simply Savings("Simply Savings," "we," "us," or "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at <a href="mailto:info@simplysaving.com">info@simplysaving.com</a>.
                     </p>
 
                     <p>
@@ -39,7 +39,7 @@
                     </p>
 
                     <ul>
-                        <li>Visit our website at <a href="https://simplysavings.com">https://simplysavings.com</a></li>
+                        <li>Visit our website at <a href="https://simplysaving.com">https://simplysaving.com</a></li>
                         <li>Engage with us in other related ways ― including any sales, marketing, or events
                             In this privacy notice, if we refer to:</li>
                         <li>
@@ -117,7 +117,7 @@
 
                     <ul>
                         <li><strong>To facilitate account creation and logon process.</strong> If you choose to link your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract. See the section below headed "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" for further information.</li>
-                        <li><strong>To post testimonials.</strong> We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at info@simplysavings.com and be sure to include your name, testimonial location, and contact information.</li>
+                        <li><strong>To post testimonials.</strong> We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at info@simplysaving.com and be sure to include your name, testimonial location, and contact information.</li>
                         <li><strong>Request feedback.</strong> We may use your information to request feedback and to contact you about your use of our Website.</li>
                         <li><strong>To enable user-to-user communications.</strong> We may use your information in order to enable user-to-user communications with each user's consent.</li>
                         <li><strong>To manage user accounts.</strong> We may use your information for the purposes of managing our account and keeping it in working order.</li>
@@ -191,7 +191,7 @@
                     </p>
 
                     <p>
-                        We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@simplysavings.com.
+                        We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@simplysaving.com.
                     </p>
 
                     <h3>8. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
@@ -201,7 +201,7 @@
                     </p>
 
                     <p>
-                        In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. To make such a request, please use the <a href="https://simplysavings.com/contact.php" target="_blank">contact details</a> provided below. We will consider and act upon any request in accordance with applicable data protection laws.
+                        In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. To make such a request, please use the <a href="https://simplysaving.com/contact.php" target="_blank">contact details</a> provided below. We will consider and act upon any request in accordance with applicable data protection laws.
                     </p>
 
                     <p>
@@ -217,7 +217,7 @@
                     </p>
 
                     <p>
-                        If you have questions or comments about your privacy rights, you may email us at <a href="mailto:info@simplysavings.com">info@simplysavings.com</a>.
+                        If you have questions or comments about your privacy rights, you may email us at <a href="mailto:info@simplysaving.com">info@simplysaving.com</a>.
                     </p>
 
                     <h6>Account Information</h6>
@@ -363,7 +363,7 @@
                     </p>
 
                     <p>
-                        You may contact us by visiting <a href="https://simplysavings.com/contact.php">https://simplysavings.com</a>, or by referring to the contact details at the bottom of this document.
+                        You may contact us by visiting <a href="https://simplysaving.com/contact.php">https://simplysaving.com</a>, or by referring to the contact details at the bottom of this document.
                     </p>
 
                     <p>
@@ -446,7 +446,7 @@
                     </ul>
 
                     <p>
-                        To exercise these rights, you can contact us by visiting <a href="https://simplysavings.com/contact.php">https://simplysavings.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+                        To exercise these rights, you can contact us by visiting <a href="https://simplysaving.com/contact.php">https://simplysaving.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
                     </p>
 
 
@@ -463,7 +463,7 @@
                     <h3>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
 
                     <p>
-                        If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO), Tom McQuillan, by email at info@simplysavings.com, by phone at 0203 807 1460, or by post to:
+                        If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO), Tom McQuillan, by email at info@simplysaving.com, by phone at 0203 807 1460, or by post to:
                         <br/><br/>
                         Simply Savings
                         
@@ -479,7 +479,7 @@ U.A.E
                     <h3>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h3>
 
                     <p>
-                        Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking <a href="https://simplysavings.com/contact.php">here</a>.
+                        Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking <a href="https://simplysaving.com/contact.php">here</a>.
                     </p>
 
                 </div>

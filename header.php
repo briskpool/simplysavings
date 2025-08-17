@@ -34,7 +34,7 @@
                 break;
             case 'contact-us':
                 $pageTitle = "Contact Simply Savings - Expert Investment Support | UK & Dubai";
-                $pageDescription = "Contact Simply Savings for expert investment support. Call UK: 0203 807 1460 or email info@simplysavings.com. Offices in UK and Dubai, UAE.";
+                $pageDescription = "Contact Simply Savings for expert investment support. Call UK: 0203 807 1460 or email info@simplysaving.com. Offices in UK and Dubai, UAE.";
                 $pageKeywords = "Contact Simply Savings, Investment Support, UK Investment, Dubai Office, Financial Advice, Investment Consultation";
                 break;
             case 'register':
