@@ -120,7 +120,7 @@
                     "itemOffered": {
                         "@type": "Service",
                         "name": "Simple Growth",
-                        "description": "2%-4% return per annum depending on investment level"
+                        "description": "3%-5% return per annum depending on investment level"
                     }
                 },
                 {
