@@ -82,7 +82,7 @@
                                 <li class="nav-item">
                                     <div class="box-details">
                                         <h3>Simple Growth</h3>
-                                        <p>This will offer you between 2%-4% per annum depending on your level of
+                                        <p>This will offer you between 3%-5% per annum depending on your level of
                                             investment.</p>
                                     </div>
                                 </li>
@@ -141,7 +141,7 @@
                     <p>
                         Investing can seem complicated and overwhelming, but at Simply Savings, we believe
                         it should be easy and straightforward. That's why we've created a three step process for our
-                        Simple Savings Fund to make it simple for you to get saving.
+                        Simple Savings to make it simple for you to get saving.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -209,7 +209,7 @@
                                         There is no risk involved in the "Simple Savings" Fund as we
                                         protect the capital for their investors.<br><br>
                                         The "Simple Growth" and "Simple Income Fund" accounts both carry a risk of
-                                        just 2.5% profile as you would expect from an investment returning 6% per month.
+                                        just 7.2% profile as you would expect from an investment returning 6% per month.
                                     </div>
                                 </div>
                             </div>

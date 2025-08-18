@@ -63,7 +63,7 @@
 				<div class = "col-12 text-center">
 					<h2>Why choose us?</h2>
 					<p>
-						Why would you choose Simply Savings Capital? Well here are 6 of the best reasons.
+						Why would you choose Simply Savings? Well here are 6 of the best reasons.
 					</p>
 				</div>
 			</div>
@@ -123,7 +123,7 @@
 							Guaranteed interest
 						</div>
 						<p>
-							Unlike a lot of investments we can actually guarantee the interest on our Easy Access Fund.
+							Unlike a lot of investments we can actually guarantee the interest on our Simple Savings Fund.
 						</p>
 					</div>
 				</div>
