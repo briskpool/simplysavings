@@ -9,7 +9,7 @@
     // Default meta values
     $pageTitle = "Simply Savings - Smart Investment Solutions";
     $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
-    $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer";
+    $pageKeywords = "fixed return investments uk, capital protected investments uk, asset backed investments uk, monthly income investments uk, alternative investments uk, sophisticated investor opportunities uk, high net worth investments uk, secured notes uk, property backed loan notes uk, fixed term investments uk, tax efficient income investments uk";
 
     // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
     $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
@@ -17,7 +17,19 @@
     $baseUrl = $scheme . '://' . $host . '/';
 
     $pageImage = $baseUrl . 'images/website-preview.png';
+    // Default to homepage URL
     $pageUrl = $baseUrl;
+    // Map of currentPage -> actual file path used on this site for canonical/hreflang correctness
+    $pagePath = [
+        'home' => '',
+        'about-us' => 'about.php',
+        'contact-us' => 'contact.php',
+        'register' => 'register.php',
+        'privacy' => 'privacy.php',
+        'privacy-policy' => 'privacy.php',
+        'terms' => 'terms-condition.php',
+        'Terms-condition' => 'terms-condition.php'
+    ];
     
     // Page-specific meta overrides
     if (isset($currentPage)) {
@@ -25,40 +37,42 @@
             case 'home':
                 $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns up to 7.2%";
                 $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
-                $pageKeywords = "Savings, Investment, Simply Savings, Guaranteed Returns, Simple Savings, Simple Growth, Simple Income, UK Investment, ISA Transfer, Investment Platform";
+                $pageKeywords = "fixed return investments uk, capital protected investments uk, asset backed investments uk, monthly income investments uk, alternative investments uk, sophisticated investor opportunities uk, high net worth investments uk, secured notes uk, property backed loan notes uk, fixed term investments 12 months uk, tax efficient income investments uk";
                 break;
             case 'about-us':
                 $pageTitle = "About Simply Savings - Trusted Investment Management | Millions Managed";
                 $pageDescription = "Simply Savings has been trusted to handle millions of pounds from UK and global investors. Our experienced trading team helps hundreds achieve their savings goals, outperforming high street banks.";
-                $pageKeywords = "About Simply Savings, Investment Management, Trading Team, UK Investment, Financial Services, Trusted Investment";
+                $pageKeywords = "about simply savings, investment management uk, asset backed investments, alternative investments uk, high net worth investors uk, sophisticated investor certification, capital protected investments, fixed income investments uk, secured notes uk, dubai investments";
                 break;
             case 'contact-us':
                 $pageTitle = "Contact Simply Savings - Expert Investment Support | UK & Dubai";
                 $pageDescription = "Contact Simply Savings for expert investment support. Call UK: 0203 807 1460 or email info@simplysaving.com. Offices in UK and Dubai, UAE.";
-                $pageKeywords = "Contact Simply Savings, Investment Support, UK Investment, Dubai Office, Financial Advice, Investment Consultation";
+                $pageKeywords = "contact simply savings, investment enquiries uk, high net worth investor enquiries, sophisticated investor enquiries, fixed return investments uk, monthly income investments uk, dubai investments contact";
                 break;
             case 'register':
                 $pageTitle = "Register with Simply Savings - Start Your Investment Journey";
                 $pageDescription = "Register with Simply Savings to start your investment journey. Create an account and begin earning guaranteed returns up to 4% per annum with our Simple Savings, Growth, and Income options.";
-                $pageKeywords = "Register Simply Savings, Investment Account, Start Investing, Guaranteed Returns, Investment Registration";
+                $pageKeywords = "register simply savings, open investment account uk, start investing uk, qualify high net worth investor, self-certified sophisticated investor, fixed return investments uk, monthly income investments uk";
                 break;
             case 'privacy':
             case 'privacy-policy':
                 $pageTitle = "Privacy Policy - Simply Savings | Data Protection & Security";
                 $pageDescription = "Simply Savings Privacy Policy. Learn how we protect your personal and financial data, ensuring the highest standards of security and confidentiality for all our investors.";
-                $pageKeywords = "Privacy Policy, Data Protection, Simply Savings, Financial Security, GDPR Compliance";
+                $pageKeywords = "privacy policy, data protection, gdpr compliance, simply savings privacy, uk privacy policy, investor data security";
                 break;
             case 'terms':
             case 'Terms-condition':
                 $pageTitle = "Terms & Conditions - Simply Savings | Investment Terms";
                 $pageDescription = "Simply Savings Terms & Conditions. Understand our investment terms, account management policies, and the terms governing your investment relationship with us.";
-                $pageKeywords = "Terms and Conditions, Investment Terms, Simply Savings, Account Terms, Investment Agreement";
+                $pageKeywords = "terms and conditions, simply savings terms, investment terms uk, website terms uk, investor terms";
                 break;
         }
         
-        // Update URL for specific pages
-        if ($currentPage !== 'home') {
-            $pageUrl = $baseUrl . $currentPage . '.php';
+        // Update URL using the path map to ensure canonical points to a real file
+        if (isset($pagePath[$currentPage]) && $pagePath[$currentPage] !== '') {
+            $pageUrl = $baseUrl . $pagePath[$currentPage];
+        } else {
+            $pageUrl = $baseUrl;
         }
     }
     ?>
@@ -75,6 +89,10 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="<?php echo $pageUrl; ?>">
+    
+    <!-- Hreflang (single language site) -->
+    <link rel="alternate" href="<?php echo $pageUrl; ?>" hreflang="en-gb">
+    <link rel="alternate" href="<?php echo $pageUrl; ?>" hreflang="x-default">
     
     <!-- Enhanced JSON-LD Schema -->
     <script type="application/ld+json">
@@ -135,6 +153,53 @@
         }
     }
     </script>
+    
+    <!-- WebSite structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Simply Savings",
+        "url": "<?php echo $baseUrl; ?>",
+        "inLanguage": "en-GB"
+    }
+    </script>
+    
+    <?php if (isset($currentPage) && $currentPage !== 'home'):
+        // Build a simple breadcrumb list: Home -> Current Page
+        $breadcrumbNameMap = [
+            'about-us' => 'About',
+            'contact-us' => 'Contact',
+            'register' => 'Register',
+            'privacy' => 'Privacy Policy',
+            'privacy-policy' => 'Privacy Policy',
+            'terms' => 'Terms & Conditions',
+            'Terms-condition' => 'Terms & Conditions'
+        ];
+        $currentPath = $pagePath[$currentPage] ?? '';
+        $currentName = $breadcrumbNameMap[$currentPage] ?? ucfirst(str_replace('-', ' ', $currentPage));
+    ?>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "<?php echo $baseUrl; ?>"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "<?php echo htmlspecialchars($currentName); ?>",
+                "item": "<?php echo $baseUrl . $currentPath; ?>"
+            }
+        ]
+    }
+    </script>
+    <?php endif; ?>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
@@ -156,12 +221,13 @@
     <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
     <meta name="twitter:image" content="<?php echo $pageImage; ?>">
     <meta name="twitter:url" content="<?php echo $pageUrl; ?>">
-    <meta name="twitter:site" content="@simplysavings">
-    <meta name="twitter:creator" content="@simplysavings">
+    <meta name="twitter:site" content="@SimplySavingsHQ">
+    <meta name="twitter:creator" content="@SimplySavingsHQ">
 
     <!-- Additional Meta Tags -->
     <meta name="theme-color" content="#1a1a1a">
     <meta name="msapplication-TileColor" content="#1a1a1a">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Simply Savings">
