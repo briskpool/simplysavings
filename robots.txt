@@ -18,7 +18,7 @@ Allow: /js/
 Allow: /templates/
 
 # Sitemap location (use the current host dynamically if served via PHP). If static, ensure domain matches production
-Sitemap: https://simplysaving.com/sitemap.xml
+Sitemap: https://simplysavings.com/sitemap.xml
 
 # Crawl delay (optional - helps with server load)
 Crawl-delay: 1
