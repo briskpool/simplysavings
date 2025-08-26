@@ -8,7 +8,7 @@
     <?php
     // Default meta values
     $pageTitle = "Simply Savings - Smart Investment Solutions";
-    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
+    $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns Up To 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options.";
     $pageKeywords = "fixed return investments uk, capital protected investments uk, asset backed investments uk, monthly income investments uk, alternative investments uk, sophisticated investor opportunities uk, high net worth investments uk, secured notes uk, property backed loan notes uk, fixed term investments uk, tax efficient income investments uk";
 
     // Build a dynamic absolute base URL using the current host. Always prefer HTTPS for crawlers/social.
@@ -35,8 +35,8 @@
     if (isset($currentPage)) {
         switch ($currentPage) {
             case 'home':
-                $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns up to 7.2%";
-                $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns up to 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
+                $pageTitle = "Simply Savings - Smart Investment Solutions | Guaranteed Returns Up To 7.2%";
+                $pageDescription = "Make Your Savings Work For You. Simply Savings offers guaranteed returns Up To 7.2% per annum with Simple Savings, Simple Growth, and Simple Income investment options. Expert support and online tools.";
                 $pageKeywords = "fixed return investments uk, capital protected investments uk, asset backed investments uk, monthly income investments uk, alternative investments uk, sophisticated investor opportunities uk, high net worth investments uk, secured notes uk, property backed loan notes uk, fixed term investments 12 months uk, tax efficient income investments uk";
                 break;
             case 'about-us':
