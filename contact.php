@@ -22,18 +22,19 @@
                     </div>
                 </div>
                 <div class="row mt-4 mt-lg-5">
-                    <div class="col-md-4 mb-5 mb-lg-0">
+                    <div class="col-md-6 mb-5 mb-lg-0 d-md-flex justify-content-center">
                         <div class="d-flex align-items-center">
                             <div class="img me-3">
                                 <img src="images/icons/calling.svg" alt="calling" />
                             </div>
                             <div class="detail">
                                 <p><strong>Give us a call</strong></p>
-                                <p><b>UK -</b> 0203 807 1460 <br></p>
+                                <p>0330 133 7916 - 0330 133 7917</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-5 mb-lg-0">
+                    <div class="col-md-6 mb-5 mb-lg-0 d-md-flex justify-content-center">
                         <div class="d-flex align-items-center">
                             <div class="img me-3">
                                 <img src="images/icons/email.svg" alt="calling" />
@@ -41,17 +42,6 @@
                             <div class="detail">
                                 <p><strong>Write to us</strong></p>
                                 <p><a href="mailto:info@simplysavings.com">info@simplysavings.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex align-items-start">
-                            <div class="img me-3">
-                                <img src="images/icons/map.svg" alt="address" />
-                            </div>
-                            <div class="detail">
-                                <p><strong>Address</strong></p>
-                                <p>Emaar Business Park, Dubai, U.A.E</p>
                             </div>
                         </div>
                     </div>
