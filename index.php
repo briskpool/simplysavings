@@ -207,9 +207,7 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body text-start">
                                         There is no risk involved in the "Simple Savings" Fund as we
-                                        protect the capital for their investors.<br><br>
-                                        The "Simple Growth" and "Simple Income Fund" accounts both carry a risk of
-                                        just 7.2% profile as you would expect from an investment returning 6% per month.
+                                        protect the capital for our investors.
                                     </div>
                                 </div>
                             </div>

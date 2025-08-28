@@ -19,7 +19,7 @@
                 <div class="col-md-8 col-lg-6">
                     <h2>Register Now</h2>
                     <p>
-                        It's quick to set up your account. Just enter your name, email, and mobile number and start saving.
+                        It's quick to set up your account. Just enter your name, email, and mobile number to start saving.
                     </p>
                     <div class="register-form">
                         <form>
